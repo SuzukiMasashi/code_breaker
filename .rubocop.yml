@@ -1,0 +1,10 @@
+# inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - '.bundle/**/*'
+    - 'vendor/bundle/**/*'
+    - 'spec/spec_helper.rb'
+
+Style/Documentation:
+  Enabled: false
